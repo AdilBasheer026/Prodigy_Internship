@@ -5,6 +5,8 @@ The following are the Links to my Project tasks I had done during my internship 
 
 [PRODIGY_WD_01 [DEMO 1]](https://AdilBasheer026.github.io/Prodigy_Internship/PRODIGY_WD_01)
 
+[PRODIGY_WD_02 [DEMO 2]](https://AdilBasheer026.github.io/Prodigy_Internship/PRODIGY_WD_02)
+
 
 
 
