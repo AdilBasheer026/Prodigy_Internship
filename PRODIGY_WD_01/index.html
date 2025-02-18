@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">cars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/bg1.jpg" alt="car 1">
+                    <img src="assets/backgrounds/bg2.jpg" alt="car 2">
+                    <img src="assets/backgrounds/bg3.jpg" alt="car 3">
+                    <img src="assets/backgrounds/bg4.jpg" alt="car 4">
+                    <img src="assets/backgrounds/bg5.jpg" alt="car 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="cars">
+            <h1 class="section-title">CARS</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>BMW 3 Series</h2>
+                    <img src="assets/cars/c1.jpg" alt="BMW 3 Series" class="game-image" data-img-src="c1.jpg">
+                    <p>The BMW 3 Series Gran Turismo is a unique blend of sporty design and practicality.With its fastback styling and larger interior space, it caters to drivers who want both performance and versatility</p>
+                </div>
+                <div class="game-block">
+                    <h2>Ford Mustang</h2>
+                    <img src="assets/cars/c2.jpg" alt="Ford Mustang " class="game-image" data-img-src="c2.jpg">
+                    <p>The 6th generation Ford Mustang brings the iconic muscle car into the modern era with a sleek design and powerful performance. Its aggressive styling, including the classic pony logo and wide grille, hints at the potent engine options under the hood, making it a favorite among sports car enthusiasts.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Mercedes-AMG A45</h2>
+                    <img src="assets/cars/c3.jpg" alt="Mercedes-AMG A45" class="game-image" data-img-src="c3.jpg">
+                    <p>The Mercedes-AMG A45 is a high-performance hatchback designed for enthusiasts who crave speed and luxury in a compact form. With its turbocharged engine, all-wheel drive, and aggressive AMG styling.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Audi A5 SPORTBACK</h2>
+                    <img src="assets/cars/c4.jpg" alt="Audi A5 Sportback" class="game-image" data-img-src="c4.jpg">
+                    <p>The Audi A5 Sportback combines coupe-like elegance with the practicality of a four-door sedan. Its sleek lines and premium finishes reflect Audi’s signature design, while a range of powerful and efficient engines ensures both smooth and sporty performanc </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/adilbasheer2003" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/AdilBasheer026" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
